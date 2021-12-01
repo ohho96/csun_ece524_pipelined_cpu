@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Nov 30 00:52:56 2021
-# Process ID: 14232
+# Start of session at: Tue Nov 30 17:39:13 2021
+# Process ID: 5080
 # Current directory: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1
-# Command line: vivado.exe -log ssd_pmod_tb.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ssd_pmod_tb.tcl -notrace
-# Log file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/ssd_pmod_tb.vdi
+# Command line: vivado.exe -log btn_tb.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source btn_tb.tcl -notrace
+# Log file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/btn_tb.vdi
 # Journal file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source ssd_pmod_tb.tcl -notrace
+source btn_tb.tcl -notrace

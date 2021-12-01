@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 30 15:45:33 2021
+# Process ID: 20984
+# Current directory: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10512 C:\Users\ohho9\Desktop\ECE524\project\csun_ece524_pipelined_cpu\project_ece524_pipelined_cpu\project_ece524_pipelined_cpu.xpr
+# Log file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/vivado.log
+# Journal file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu'
+WARNING: [Board 49-91] Board repository path 'C:/Users/ohho9/Desktop/ECE520/vivado_librarys/vivado-library-2019.1-1' does not exist, it will not be used to search board files.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/ohho9/Desktop/ECE520/vivado_librarys/vivado-library-2019.1-1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 881.332 ; gain = 236.594
+update_compile_order -fileset sources_1
+close [ open C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.srcs/sources_1/new/btn_handler.vhd w ]
+add_files C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.srcs/sources_1/new/btn_handler.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.srcs/sources_1/new/btn_tb.vhd w ]
+add_files C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.srcs/sources_1/new/btn_tb.vhd
+update_compile_order -fileset sources_1
+set_property top btn_tb [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Nov 30 17:31:58 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1/runme.log
+[Tue Nov 30 17:31:58 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Nov 30 17:32:59 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1/runme.log
+[Tue Nov 30 17:32:59 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3000:arm' GDB server: An attempt was made to access a socket in a way forbidden by its access permissions
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351B105DFA
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2089.992 ; gain = 1107.781
+set_property PROGRAM.FILE {C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/btn_tb.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/btn_tb.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210351B105DFA
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Nov 30 17:38:31 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1/runme.log
+[Tue Nov 30 17:38:31 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351B105DFA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/impl_1/btn_tb.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 30 17:46:15 2021...

@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log ssd_pmod_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ssd_pmod_tb.tcl
+EAStep vivado -log btn_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source btn_tb.tcl

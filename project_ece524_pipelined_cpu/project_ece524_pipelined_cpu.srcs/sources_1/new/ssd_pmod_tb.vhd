@@ -41,7 +41,5 @@ begin
                 counter := counter +1;
             end if;
         end if;
-        
-        
     end process;
 end Behavioral;
