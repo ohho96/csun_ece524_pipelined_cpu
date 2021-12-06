@@ -1,78 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638322711">
-  <File Type="BITSTR-BMM" Name="btn_tb_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="btn_tb_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="btn_tb_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="btn_tb_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="btn_tb.tcl"/>
-  <File Type="OPT-TIMING" Name="btn_tb_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="btn_tb_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="btn_tb_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="btn_tb_reports.tcl"/>
-  <File Type="OPT-DRC" Name="btn_tb_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="btn_tb.hwdef"/>
-  <File Type="PWROPT-DCP" Name="btn_tb_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="btn_tb_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="btn_tb_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="btn_tb_placed.dcp"/>
-  <File Type="PLACE-IO" Name="btn_tb_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="btn_tb_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="btn_tb_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="btn_tb_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="btn_tb_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="btn_tb_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="btn_tb_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="btn_tb.bgn"/>
-  <File Type="PLACE-TIMING" Name="btn_tb_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="btn_tb_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="btn_tb.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="btn_tb_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="btn_tb_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="btn_tb_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="btn_tb.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="btn_tb_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="btn_tb_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="btn_tb_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="btn_tb_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="btn_tb_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="btn_tb_drc_routed.pb"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638756964">
+  <File Type="BITSTR-BMM" Name="FinalPipelineCPU_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FinalPipelineCPU_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="FinalPipelineCPU_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="FinalPipelineCPU_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="FinalPipelineCPU.tcl"/>
+  <File Type="OPT-TIMING" Name="FinalPipelineCPU_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="FinalPipelineCPU_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="FinalPipelineCPU_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="FinalPipelineCPU_reports.tcl"/>
+  <File Type="OPT-DRC" Name="FinalPipelineCPU_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FinalPipelineCPU.hwdef"/>
+  <File Type="PWROPT-DCP" Name="FinalPipelineCPU_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="FinalPipelineCPU_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="FinalPipelineCPU_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="FinalPipelineCPU_placed.dcp"/>
+  <File Type="PLACE-IO" Name="FinalPipelineCPU_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="FinalPipelineCPU_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="FinalPipelineCPU_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="FinalPipelineCPU_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="FinalPipelineCPU_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="FinalPipelineCPU_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FinalPipelineCPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="FinalPipelineCPU.bgn"/>
+  <File Type="PLACE-TIMING" Name="FinalPipelineCPU_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FinalPipelineCPU_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="FinalPipelineCPU.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="FinalPipelineCPU_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="FinalPipelineCPU_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="FinalPipelineCPU_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="FinalPipelineCPU.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="FinalPipelineCPU_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FinalPipelineCPU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="FinalPipelineCPU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FinalPipelineCPU_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="FinalPipelineCPU_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="FinalPipelineCPU_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="btn_tb.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="btn_tb_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="btn_tb.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="btn_tb_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="btn_tb_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="btn_tb.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="btn_tb_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="btn_tb_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="btn_tb_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="btn_tb_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="btn_tb_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="btn_tb_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="btn_tb_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="btn_tb_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="btn_tb_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="btn_tb_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="btn_tb_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="btn_tb_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="btn_tb_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="btn_tb_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="btn_tb_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="btn_tb_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="btn_tb_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="btn_tb_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="btn_tb_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="btn_tb.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="btn_tb_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="btn_tb.rbt"/>
-  <File Type="BITSTR-NKY" Name="btn_tb.nky"/>
-  <File Type="BG-DRC" Name="btn_tb.drc"/>
-  <File Type="RDI-RDI" Name="btn_tb.vdi"/>
+  <File Type="BITSTR-LTX" Name="FinalPipelineCPU.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="FinalPipelineCPU_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="FinalPipelineCPU.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FinalPipelineCPU_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FinalPipelineCPU_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="FinalPipelineCPU.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FinalPipelineCPU_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="FinalPipelineCPU_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="FinalPipelineCPU_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="FinalPipelineCPU_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="FinalPipelineCPU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="FinalPipelineCPU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="FinalPipelineCPU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="FinalPipelineCPU_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="FinalPipelineCPU_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="FinalPipelineCPU_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="FinalPipelineCPU_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="FinalPipelineCPU_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FinalPipelineCPU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FinalPipelineCPU_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="FinalPipelineCPU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="FinalPipelineCPU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="FinalPipelineCPU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="FinalPipelineCPU_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="FinalPipelineCPU_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="FinalPipelineCPU.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="FinalPipelineCPU_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="FinalPipelineCPU.rbt"/>
+  <File Type="BITSTR-NKY" Name="FinalPipelineCPU.nky"/>
+  <File Type="BG-DRC" Name="FinalPipelineCPU.drc"/>
+  <File Type="RDI-RDI" Name="FinalPipelineCPU.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/KevinCode/ALU/ALU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../KevinCode/ALU/ALU.vhd"/>
+        <Attr Name="ImportTime" Val="1638516881"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/btn_handler.vhd">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/KevinCode/CPU_Pipeline/pipelinecpu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../KevinCode/CPU_Pipeline/pipelinecpu.vhd"/>
+        <Attr Name="ImportTime" Val="1638516881"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -83,8 +99,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/FinalPipelineCPU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/btn_tb.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -96,9 +119,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../pipe_cpu.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="btn_tb"/>
+      <Option Name="TopModule" Val="FinalPipelineCPU"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -133,4 +162,5 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
 </GenRun>

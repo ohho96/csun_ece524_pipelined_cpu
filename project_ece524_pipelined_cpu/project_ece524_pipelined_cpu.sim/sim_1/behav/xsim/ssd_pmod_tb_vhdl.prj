@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_ece524_pipelined_cpu.srcs/sources_1/new/ssd_pmod.vhd" \
+"../../../../project_ece524_pipelined_cpu.srcs/sources_1/new/ssd_pmod_tb.vhd" \
+
+# Do not sort compile order
+nosort
