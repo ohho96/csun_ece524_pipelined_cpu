@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Dec  5 18:16:06 2021
-# Process ID: 21368
+# Start of session at: Sun Dec  5 20:45:20 2021
+# Process ID: 5840
 # Current directory: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1
 # Command line: vivado.exe -log FinalPipelineCPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FinalPipelineCPU.tcl
 # Log file: C:/Users/ohho9/Desktop/ECE524/project/csun_ece524_pipelined_cpu/project_ece524_pipelined_cpu/project_ece524_pipelined_cpu.runs/synth_1/FinalPipelineCPU.vds

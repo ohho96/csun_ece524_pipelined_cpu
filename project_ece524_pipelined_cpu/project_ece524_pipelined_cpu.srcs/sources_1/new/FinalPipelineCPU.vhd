@@ -80,7 +80,8 @@ begin
             slow := '0';
         elsif(rising_edge(sysclk))then
             if (sw(2) = '0')then --sysclock
-                clk <= not hclk;
+                hclk := not hclk;
+                clk <= hclk;
             else --slow clock
                 if(counter = numCount)then
                     counter := 0;
