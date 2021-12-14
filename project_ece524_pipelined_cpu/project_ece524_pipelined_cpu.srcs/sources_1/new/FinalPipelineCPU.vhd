@@ -73,11 +73,11 @@ begin
     process(sysclk)
         variable slow, hclk : std_logic := '0';
         variable counter : integer := 0;
-        variable numCount: integer := 59999999;
+        variable numCount: integer := 60000000;
     begin
         if(sw(3) = '0')then--reset
             counter := 0;
-            slow := '0';
+            slow := '1';
         elsif(rising_edge(sysclk))then
             if (sw(2) = '0')then --sysclock
                 hclk := not hclk;
